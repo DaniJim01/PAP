@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAP.Business", "PAP.Busines
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAP.Repositories", "PAP.Repositories\PAP.Repositories.csproj", "{2CFE9167-0530-473E-B3E6-749BE28634FC}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PAP.BookStoreDB", "PAP.BookStoreDB\PAP.BookStoreDB.sqlproj", "{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,12 @@ Global
 		{2CFE9167-0530-473E-B3E6-749BE28634FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFE9167-0530-473E-B3E6-749BE28634FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFE9167-0530-473E-B3E6-749BE28634FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B233BCD2-EF7C-4F32-A63F-70E3CC2BC3D7}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

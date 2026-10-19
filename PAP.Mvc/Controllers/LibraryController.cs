@@ -116,6 +116,7 @@ namespace PAP.Mvc.Controllers
             [ModelBinder(typeof(CurrencyModelBinder))] decimal precio)
         {
             ViewBag.PrecioConvertido = precio;
+            ModelState.Values.ToList().ForEach(x => ViewBag.Errors += string.Join(",", x.Errors));
             return View();
         }
     }
